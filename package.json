@@ -1,0 +1,15 @@
+{
+  "name": "agri-inspect-batch",
+  "version": "1.0.0",
+  "description": "农产品检测批量报送系统：导入预检、按批上送监管平台、异常错误码筛选、重复样品单独提示",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
