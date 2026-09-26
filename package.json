@@ -1,0 +1,14 @@
+{
+  "name": "agri-inspection-reporting",
+  "version": "0.1.0",
+  "description": "农产品检测批量报送：导入预检、按批上送监管平台、异常回执按错误码筛选、重复样品单独提示",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node scripts/demo.mjs",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
